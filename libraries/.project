@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Clean Arch Mono</name>
-	<comment>Project Starter Clean Modular created by Buildship.</comment>
+	<name>libraries</name>
+	<comment>Project libraries created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
