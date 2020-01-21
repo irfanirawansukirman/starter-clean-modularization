@@ -1,0 +1,80 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+apply plugin: 'kotlinx-serialization'
+
+apply plugin: "kotlin-allopen"
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+        buildConfigField("String", "MOVIE_URL", '\"https://api.themoviedb.org/3/\"')
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+    lintOptions {
+        abortOnError false
+    }
+    signingConfigs {
+        release {
+            // storeFile file("${rootDir}/lazio12345.jks")
+            // storePassword "lazio12345"
+            // keyAlias "lazio12345"
+            // keyPassword "lazio12345"
+        }
+    }
+    testOptions {
+        unitTests.includeAndroidResources true
+        unitTests.returnDefaultValues = true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // there are inheritance dependencies from domain.
+    // so, i think we don't add same dependencies in here for clean reason.
+    implementation project(':domain')
+    implementation project(':libraries:abstraction')
+
+    implementation "com.squareup.retrofit2:retrofit:2.6.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.14.2"
+
+    implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.4.0"
+
+    implementation "androidx.room:room-runtime:2.2.2"
+    kapt "androidx.room:room-compiler:2.2.2"
+    implementation "androidx.room:room-ktx:2.2.2"
+
+    api "org.koin:koin-androidx-viewmodel:2.0.1"
+
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.1.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:2.1.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-rc03"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-rc03"
+    // implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0-rc03"
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

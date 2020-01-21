@@ -1,0 +1,19 @@
+//features
+include ':app'
+include ':feature:about'
+include ':feature:moviedetail'
+include ':feature:auth'
+
+//data, network, abstraction
+include ':domain'
+include ':data'
+
+//libraries
+include ':libraries:abstraction'
+include ':libraries:database'
+include ':libraries:network'
+include ':libraries:lib_recyclerviewgenericadapter'
+include ':libraries:lib_loopingviewpager'
+include ':libraries:lib_pageindicatorview'
+
+rootProject.name = 'Clean Arch Mono'
