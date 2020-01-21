@@ -10,7 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a5bb99-fab7-4a3c-970b-878158742d63" name="Default Changelist" comment="">
+    <list default="true" id="d0a5bb99-fab7-4a3c-970b-878158742d63" name="Default Changelist" comment="fix: init">
       <change afterPath="$PROJECT_DIR$/../CounterCategorySample/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CounterCategorySample/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../CounterCategorySample/.idea/codeStyles/Project.xml" afterDir="false" />
@@ -122,233 +122,6 @@
       <change afterPath="$PROJECT_DIR$/../MyPlayground/gradle.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyPlayground/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyPlayground/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prod/release/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prod/release/your app name-prodRelease-1.0#1-15122019.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/irfanirawansukirman/cleanarchmono/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/di/AppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/di/PresentationModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/ui/main/MainViewEffects.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/ui/main/presentation/MainVM.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/ui/main/view/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/irfanirawansukirman/cleanarchmono/ui/main/view/MainAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/main_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/irfanirawansukirman/cleanarchmono/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/androidTest/java/com/irfanirawansukirman/data/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/NetworkExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/base/BaseVM.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/coroutine/CoroutineContextProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/ext/ViewModelExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/utils/Connectivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/common/utils/ConnectivityImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/di/NetworkModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/di/RepositoryModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/network/base/NetworkResult.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/network/model/MoviesResponse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/network/services/MovieApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/repository/MoviesRepositoryImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/irfanirawansukirman/data/repository/base/BaseRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/irfanirawansukirman/data/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/androidTest/java/com/irfanirawansukirman/domain/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/base/BaseUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/di/InteractionModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/interaction/movies/MoviesUseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/interaction/movies/MoviesUseCaseImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/model/Result.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/model/response/MovieInfo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/irfanirawansukirman/domain/repository/MoviesRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/test/java/com/irfanirawansukirman/domain/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature-common.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/androidTest/java/com/irfanirawansukirman/about/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/main/java/com/irfanirawansukirman/about/AboutActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/main/res/layout/about_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/about/src/test/java/com/irfanirawansukirman/about/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/androidTest/java/com/irfanirawansukirman/auth/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/irfanirawansukirman/auth/AuthActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/java/com/irfanirawansukirman/auth/AuthVM.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/layout/activity_auth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/auth/src/test/java/com/irfanirawansukirman/auth/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/androidTest/java/com/irfanirawansukirman/moviedetail/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/main/java/com/irfanirawansukirman/moviedetail/MovieDetailActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/main/res/layout/movie_detail_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feature/moviedetail/src/test/java/com/irfanirawansukirman/moviedetail/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/androidTest/java/com/irfanirawansukirman/abstraction/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/base/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/base/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/base/UiState.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/DateConst.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/bindings/ImageBindings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/bindings/TextViewBindings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/ActivityExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/CommonExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/ImageViewExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/LivedataExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/RecyclerviewExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/TextViewExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/java/com/irfanirawansukirman/abstraction/common/ext/ViewExt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/res/drawable/cv_gradient_black_to_transparent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/res/drawable/cv_progress.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/res/drawable/ic_error404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/res/drawable/ic_progress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/abstraction/src/test/java/com/irfanirawansukirman/abstraction/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/src/androidTest/java/com/irfanirawansukirman/database/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/database/src/test/java/com/irfanirawansukirman/database/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/src/main/java/com/asksira/loopingviewpager/LoopingPagerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/src/main/java/com/asksira/loopingviewpager/LoopingViewPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/src/main/res/values/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_loopingviewpager/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/IndicatorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/PageIndicatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/AnimationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/controller/AnimationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/controller/ValueController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/AnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/Value.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/ColorAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/DropAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/FillAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/ScaleAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/SlideAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/SwapAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/ThinWormAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/data/type/WormAnimationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/AnimationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/BaseAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/ColorAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/DropAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/FillAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/ScaleAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/ScaleDownAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/SlideAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/SwapAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/ThinWormAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/animation/type/WormAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/DrawManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/controller/AttributeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/controller/DrawController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/controller/MeasureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/data/Indicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/data/Orientation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/data/PositionSavedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/data/RtlMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/Drawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/BaseDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/BasicDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/ColorDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/DropDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/FillDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/ScaleDownDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/ScaleDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/SlideDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/SwapDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/ThinWormDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/draw/drawer/type/WormDrawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/utils/CoordinatesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/utils/DensityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/java/com/rd/utils/IdUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_pageindicatorview/src/main/res/values/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/androidTest/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/BaseDiffCallback.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/BaseRecyclerListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/BaseViewHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/GenericRecyclerViewAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/OnEntityClickListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/OnRecyclerItemClickListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/decorator/DrawableItemDecorator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/decorator/FilterableItemDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/src/test/java/com/irfanirawansukirman/lib_recyclerviewgenericadapter/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/consumer-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/src/androidTest/java/com/irfanirawansukirman/network/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libraries/network/src/test/java/com/irfanirawansukirman/network/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TelegramBot/app/src/main/java/com/irfanirawansukirman/telegrambot/RetrieveFeedTask.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../submission/submission1/app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../submission/submission1/app/build.gradle" afterDir="false" />
@@ -422,6 +195,8 @@
       <change afterPath="$PROJECT_DIR$/../submission/submission1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../submission/submission1/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CleanArchMono/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -517,7 +292,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -654,7 +429,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -666,16 +441,6 @@
               <item name="Clean Arch Mono" type="b2602c69:ProjectViewProjectNode" />
               <item name="Starter Clean Modular" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Clean Arch Mono" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Starter Clean Modular" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="feature" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clean Arch Mono" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Starter Clean Modular" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -685,6 +450,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
@@ -790,11 +556,18 @@
       <option name="presentableId" value="Default" />
       <updated>1579622361929</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix: init">
+      <created>1579624041902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579624041902</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32967034" />
