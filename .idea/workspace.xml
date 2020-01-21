@@ -122,8 +122,6 @@
       <change afterPath="$PROJECT_DIR$/../MyPlayground/gradle.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyPlayground/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MyPlayground/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prod/release/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prod/release/your app name-prodRelease-1.0#1-15122019.apk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TelegramBot/app/src/main/java/com/irfanirawansukirman/telegrambot/RetrieveFeedTask.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../submission/submission1/app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../submission/submission1/app/build.gradle" afterDir="false" />
@@ -263,8 +261,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="115" column="42" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
+            <state relative-caret-position="351">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -684,8 +682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="115" column="42" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
+        <state relative-caret-position="351">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
