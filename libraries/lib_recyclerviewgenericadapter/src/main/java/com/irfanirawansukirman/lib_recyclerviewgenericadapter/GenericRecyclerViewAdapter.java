@@ -36,12 +36,12 @@ import java.util.List;
  * Extend the adapter for appropriate use case.
  *
  * @param <T>  type of objects, which will be used in the adapter's dataset
- * @param <L>  click listener {@link BaseRecyclerListener}
+// * @param <L>  click listener {@link BaseRecyclerListener}
  * @param <VH> ViewHolder {@link BaseViewHolder}
  * @author Leonid Ustenko (Leo.Droidcoder@gmail.com)
  * @since 1.0.0
  */
-public abstract class GenericRecyclerViewAdapter<T, L extends BaseRecyclerListener, VH extends BaseViewHolder<T, L>> extends RecyclerView.Adapter<VH> {
+public abstract class GenericRecyclerViewAdapter<T, L extends BaseRecyclerListener, VH extends BaseViewHolder<T>> extends RecyclerView.Adapter<VH> {
 
     private List<T> items;
     private L listener;

@@ -9,31 +9,23 @@ import com.irfanirawansukirman.lib_recyclerviewgenericadapter.BaseViewHolder
 import com.irfanirawansukirman.lib_recyclerviewgenericadapter.GenericRecyclerViewAdapter
 import com.irfanirawansukirman.lib_recyclerviewgenericadapter.OnRecyclerItemClickListener
 
-class MainAdapter(
-    context: Context,
-    onRecyclerItemClickListener: OnRecyclerItemClickListener
-) :
+class MainAdapter(context: Context, private val onMovieSelected: (MoviesResult?) -> Unit) :
     GenericRecyclerViewAdapter<MoviesResult, OnRecyclerItemClickListener, MainAdapter.ItemHolder>(
-        context,
-        onRecyclerItemClickListener
+        context
     ) {
 
-    class ItemHolder(
-        private val mainItemBinding: MainItemBinding,
-        private val getListener: OnRecyclerItemClickListener
+    inner class ItemHolder(
+        private val mainItemBinding: MainItemBinding
     ) :
-        BaseViewHolder<MoviesResult, OnRecyclerItemClickListener>(mainItemBinding, getListener) {
-
-        init {
-            listener?.run {
-                mainItemBinding.root.setOnClickListener { getListener.onItemClick(adapterPosition) }
-            }
-        }
+        BaseViewHolder<MoviesResult>(mainItemBinding) {
 
         override fun onBind(item: MoviesResult?) {
             mainItemBinding.apply {
                 movieTitle = item?.title
                 posterUrl = item?.posterPath
+                root.setOnClickListener {
+                    onMovieSelected(item)
+                }
                 executePendingBindings()
             }
         }
@@ -45,7 +37,7 @@ class MainAdapter(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
-            ), listener
+            )
         )
     }
 }

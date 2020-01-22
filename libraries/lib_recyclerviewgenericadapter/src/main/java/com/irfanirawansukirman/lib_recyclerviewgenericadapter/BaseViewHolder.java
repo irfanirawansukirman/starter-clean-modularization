@@ -15,8 +15,6 @@
  */
 package com.irfanirawansukirman.lib_recyclerviewgenericadapter;
 
-import android.view.View;
-
 import androidx.databinding.ViewDataBinding;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -27,21 +25,14 @@ import java.util.List;
  * {@link GenericRecyclerViewAdapter}
  *
  * @param <T> type of objects, which will be used in the adapter's data set
- * @param <L> click listener {@link BaseRecyclerListener}
+// * @param <L> click listener {@link BaseRecyclerListener}
  * @author Leonid Ustenko (Leo.Droidcoder@gmail.com)
  * @since 1.0.0
  */
-public abstract class BaseViewHolder<T, L extends BaseRecyclerListener> extends RecyclerView.ViewHolder {
-
-    private L listener;
+public abstract class BaseViewHolder<T> extends RecyclerView.ViewHolder {
 
     public BaseViewHolder(ViewDataBinding itemView) {
         super(itemView.getRoot());
-    }
-
-    public BaseViewHolder(ViewDataBinding itemView, L listener) {
-        super(itemView.getRoot());
-        this.listener = listener;
     }
 
     /**
@@ -65,9 +56,5 @@ public abstract class BaseViewHolder<T, L extends BaseRecyclerListener> extends 
      */
     public void onBind(T item, List<Object> payloads) {
         onBind(item);
-    }
-
-    protected L getListener() {
-        return listener;
     }
 }

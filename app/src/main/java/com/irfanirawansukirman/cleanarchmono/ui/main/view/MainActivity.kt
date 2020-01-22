@@ -8,11 +8,10 @@ import com.irfanirawansukirman.cleanarchmono.R
 import com.irfanirawansukirman.cleanarchmono.ui.main.presentation.MainVM
 import com.irfanirawansukirman.data.network.model.MoviesResult
 import com.irfanirawansukirman.domain.model.response.MovieInfo
-import com.irfanirawansukirman.lib_recyclerviewgenericadapter.OnRecyclerItemClickListener
 import kotlinx.android.synthetic.main.main_activity.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MainActivity : BaseActivity(), OnRecyclerItemClickListener {
+class MainActivity : BaseActivity() {
 
     private val viewModel: MainVM by viewModel()
 
@@ -29,7 +28,10 @@ class MainActivity : BaseActivity(), OnRecyclerItemClickListener {
     }
 
     override fun setupComponents() {
-        mainAdapter = MainAdapter(this, this)
+        mainAdapter = MainAdapter(this) { movie ->
+            val url = "auth://auth/${movie?.originalTitle}".toUri()
+            startActivity(Intent(Intent.ACTION_VIEW, url))
+        }
     }
 
     private fun movieUiState(uiState: UiState<MovieInfo>) {
@@ -65,18 +67,6 @@ class MainActivity : BaseActivity(), OnRecyclerItemClickListener {
                 btnMain.visible()
             }
         }
-    }
-
-    /**
-     * This is a callback of the recycler listener.
-     * {@link OnRecyclerItemClickListener}.
-     * Is being triggered when an item has been clicked.
-     *
-     * @param position clicked position
-     */
-    override fun onItemClick(position: Int) {
-        val url = "auth://auth/$position".toUri()
-        startActivity(Intent(Intent.ACTION_VIEW, url))
     }
 
     private fun setupMovieList(data: List<MoviesResult>) {

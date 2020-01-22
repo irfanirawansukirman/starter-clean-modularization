@@ -32,10 +32,7 @@ android {
     }
     signingConfigs {
         release {
-            // storeFile file("${rootDir}/lazio12345.jks")
-            // storePassword "lazio12345"
-            // keyAlias "lazio12345"
-            // keyPassword "lazio12345"
+
         }
     }
     flavorDimensions "yourFlavorDimension"
@@ -71,25 +68,43 @@ android {
 //https://medium.com/better-programming/best-way-to-bundle-dependencies-in-android-using-kotlin-dsl-scripts-dc3478cff820
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    /**
+     * Kotlin Dependencies Put Here
+     */
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.14.0"
 
-    implementation project(":domain")
-    implementation project(":data")
-
-    implementation project(":libraries:abstraction")
-    implementation project(":libraries:lib_recyclerviewgenericadapter")
-
-    implementation project(":feature:auth")
-    implementation project(":feature:about")
-    implementation project(":feature:moviedetail")
-
+    /**
+     * Android Dependencies Put Here
+     */
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.1.0'
-
     implementation 'com.google.android.material:material:1.0.0'
+    implementation project(":libraries:lib_recyclerviewgenericadapter")
 
+    /**
+     * Testing Dependencies Put Here
+     */
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    /**
+     * Data n' Domain Put Here
+     */
+    implementation project(":domain")
+    implementation project(":data")
+
+    /**
+     * Base n' Common Put Here
+     */
+    implementation project(":libraries:abstraction")
+
+    /**
+     * Feature Modules Put Here
+     */
+    implementation project(":feature:auth")
+    implementation project(":feature:moviedetail")
+    implementation project(":feature:favouritemovies")
 }
