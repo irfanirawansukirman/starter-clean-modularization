@@ -53,7 +53,15 @@ fun logD(TAG: Class<*>, message: String) {
 }
 
 fun logE(TAG: Class<*>, message: String) {
-    Log.d(TAG.simpleName, message)
+    Log.e(TAG.simpleName, message)
+}
+
+fun logD(TAG: String, message: String) {
+    Log.d(TAG, message)
+}
+
+fun logE(TAG: String, message: String) {
+    Log.e(TAG, message)
 }
 
 fun convertCurrencyToRupiah(currency: Any): String {

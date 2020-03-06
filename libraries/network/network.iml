@@ -4,8 +4,8 @@
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
         <option name="GRADLE_PROJECT_PATH" value=":libraries:network" />
-        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.5.3" />
-        <option name="LAST_KNOWN_AGP_VERSION" value="3.5.3" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.6.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.6.1" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -32,7 +32,7 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.61/289bdf25b4886749e040c7a7d3aab8a57f85c631/kotlin-android-extensions-runtime-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.61/70dffc5f8ac5ea7c34f30deac5b9d8b1d48af066/kotlin-stdlib-jdk7-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/com.jakewharton.retrofit/retrofit2-kotlinx-serialization-converter/0.4.0/12aa51a7d41239f7e2072c7dfe77ff64405db1d6/retrofit2-kotlinx-serialization-converter-0.4.0.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.11.0/76cc88b4aa3f91ee2eb657fda3e05c8bb449678d/kotlinx-serialization-runtime-0.11.0.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.61/4702105e97f7396ae41b113fdbdc180ec1eb1e36/kotlin-stdlib-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.11.0/29737222e88a4b991be3989b9ef921a28745524a/kotlinx-serialization-runtime-common-0.11.0.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.61/65abb71d5afb850b68be03987b08e2c864ca3110/kotlin-stdlib-common-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.6.0/88ec07b1081599f7e8401650c782ce3f3c0aae07/retrofit-2.6.0.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.14.2/4c0c8881ac14b6b5519a30465c2de24b5f263138/logging-interceptor-3.14.2.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.14.2/eaed79ed6bc1e14fad462172b6a09524545b165c/okhttp-3.14.2.jar:/Users/irfanirawansukirman/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.17.2/78c7820b205002da4d2d137f6f312bd64b3d6049/okio-1.17.2.jar:/Users/irfanirawansukirman/Library/Android/sdk/platforms/android-29/android.jar" />
+          <option name="classpath" value="$MODULE_DIR$/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/5b88db92ad88bd2dea3488e7004bbed4/jetified-kotlin-android-extensions-runtime-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/7e9e7eff4ce8ef0cf095ff7d5de265f3/jetified-kotlin-stdlib-jdk7-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/af2ad43379f9ec823b69b0846a57eceb/jetified-retrofit2-kotlinx-serialization-converter-0.4.0.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/e524af7342e754efcb8d92aebefd6440/jetified-kotlinx-serialization-runtime-0.11.0.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/24efa6a09b29b41151a0f9ad56334ca3/jetified-kotlin-stdlib-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/0a815a25a86256cae685d50e67527628/jetified-kotlinx-serialization-runtime-common-0.11.0.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/a01a5d5e74cb2f2e95702c1ab1972ccc/jetified-kotlin-stdlib-common-1.3.61.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/95f25d2d198d98161c5aedbc860ef716/jetified-annotations-13.0.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/2ab9c1609cd789af76c4cfc622f5fa17/jetified-retrofit-2.6.0.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/ec7fd0851db5b11b197bface319076b7/jetified-logging-interceptor-3.14.2.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/6c4688a4d25984779c41719ca507678e/jetified-okhttp-3.14.2.jar:/Users/irfanirawansukirman/.gradle/caches/transforms-2/files-2.1/b8d7fc5826aec521270d92b15a8aad93/jetified-okio-1.17.2.jar:/Users/irfanirawansukirman/Library/Android/sdk/platforms/android-29/android.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="network_debug" />
@@ -71,17 +71,15 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/debugAndroidTest/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debugAndroidTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/debug" type="java-test-resource" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/ap_generated_sources/debugUnitTest/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />

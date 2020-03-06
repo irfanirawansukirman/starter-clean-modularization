@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Clean Arch Mono.iml" filepath="$PROJECT_DIR$/Clean Arch Mono.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clean Arch Mono.iml" filepath="$PROJECT_DIR$/Clean Arch Mono.iml" group="Clean Arch Mono" />
       <module fileurl="file://$PROJECT_DIR$/feature/about/about.iml" filepath="$PROJECT_DIR$/feature/about/about.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/abstraction/abstraction.iml" filepath="$PROJECT_DIR$/libraries/abstraction/abstraction.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feature/auth/auth.iml" filepath="$PROJECT_DIR$/feature/auth/auth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/database/database.iml" filepath="$PROJECT_DIR$/libraries/database/database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/lib_loopingviewpager/lib_loopingviewpager.iml" filepath="$PROJECT_DIR$/libraries/lib_loopingviewpager/lib_loopingviewpager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/lib_pageindicatorview/lib_pageindicatorview.iml" filepath="$PROJECT_DIR$/libraries/lib_pageindicatorview/lib_pageindicatorview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/lib_recyclerviewgenericadapter.iml" filepath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/lib_recyclerviewgenericadapter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feature/moviedetail/moviedetail.iml" filepath="$PROJECT_DIR$/feature/moviedetail/moviedetail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraries/network/network.iml" filepath="$PROJECT_DIR$/libraries/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/abstraction/abstraction.iml" filepath="$PROJECT_DIR$/libraries/abstraction/abstraction.iml" group="Clean Arch Mono/libraries/abstraction" />
+      <module fileurl="file://$PROJECT_DIR$/feature/chat/chat.iml" filepath="$PROJECT_DIR$/feature/chat/chat.iml" group="Clean Arch Mono/feature/chat" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" group="Clean Arch Mono/data" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/database/database.iml" filepath="$PROJECT_DIR$/libraries/database/database.iml" group="Clean Arch Mono/libraries/database" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="Clean Arch Mono/domain" />
+      <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" group="Clean Arch Mono/feature" />
+      <module fileurl="file://$PROJECT_DIR$/feature/main/home.iml" filepath="$PROJECT_DIR$/feature/main/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/installer/installer.iml" filepath="$PROJECT_DIR$/installer/installer.iml" group="Clean Arch Mono/installer" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/lib_loopingviewpager/lib_loopingviewpager.iml" filepath="$PROJECT_DIR$/libraries/lib_loopingviewpager/lib_loopingviewpager.iml" group="Clean Arch Mono/libraries/lib_loopingviewpager" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/lib_pageindicatorview/lib_pageindicatorview.iml" filepath="$PROJECT_DIR$/libraries/lib_pageindicatorview/lib_pageindicatorview.iml" group="Clean Arch Mono/libraries/lib_pageindicatorview" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/lib_recyclerviewgenericadapter.iml" filepath="$PROJECT_DIR$/libraries/lib_recyclerviewgenericadapter/lib_recyclerviewgenericadapter.iml" group="Clean Arch Mono/libraries/lib_recyclerviewgenericadapter" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" group="Clean Arch Mono/libraries" />
+      <module fileurl="file://$PROJECT_DIR$/feature/main/main.iml" filepath="$PROJECT_DIR$/feature/main/main.iml" group="Clean Arch Mono/feature/main" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/network/network.iml" filepath="$PROJECT_DIR$/libraries/network/network.iml" group="Clean Arch Mono/libraries/network" />
     </modules>
   </component>
 </project>

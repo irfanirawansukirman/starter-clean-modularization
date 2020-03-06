@@ -1,8 +1,8 @@
 //features
-include ':app'
-include ':feature:about'
-include ':feature:moviedetail'
-include ':feature:auth'
+include ':installer'
+
+include ':feature:main'
+include ':feature:chat'
 
 //data, network, abstraction
 include ':domain'
