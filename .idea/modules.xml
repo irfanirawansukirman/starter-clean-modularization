@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/feature/chat/chat.iml" filepath="$PROJECT_DIR$/feature/chat/chat.iml" group="Clean Arch Mono/feature/chat" />
       <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" group="Clean Arch Mono/data" />
       <module fileurl="file://$PROJECT_DIR$/libraries/database/database.iml" filepath="$PROJECT_DIR$/libraries/database/database.iml" group="Clean Arch Mono/libraries/database" />
+      <module fileurl="file://$PROJECT_DIR$/feature/deposit/deposit.iml" filepath="$PROJECT_DIR$/feature/deposit/deposit.iml" group="Clean Arch Mono/feature/deposit" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" group="Clean Arch Mono/domain" />
       <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" group="Clean Arch Mono/feature" />
       <module fileurl="file://$PROJECT_DIR$/feature/main/home.iml" filepath="$PROJECT_DIR$/feature/main/home.iml" />
@@ -18,6 +19,8 @@
       <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" group="Clean Arch Mono/libraries" />
       <module fileurl="file://$PROJECT_DIR$/feature/main/main.iml" filepath="$PROJECT_DIR$/feature/main/main.iml" group="Clean Arch Mono/feature/main" />
       <module fileurl="file://$PROJECT_DIR$/libraries/network/network.iml" filepath="$PROJECT_DIR$/libraries/network/network.iml" group="Clean Arch Mono/libraries/network" />
+      <module fileurl="file://$PROJECT_DIR$/feature/product/product.iml" filepath="$PROJECT_DIR$/feature/product/product.iml" group="Clean Arch Mono/feature/product" />
+      <module fileurl="file://$PROJECT_DIR$/feature/selling/selling.iml" filepath="$PROJECT_DIR$/feature/selling/selling.iml" group="Clean Arch Mono/feature/selling" />
     </modules>
   </component>
 </project>

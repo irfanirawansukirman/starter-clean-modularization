@@ -3,6 +3,9 @@ include ':installer'
 
 include ':feature:main'
 include ':feature:chat'
+include ':feature:product'
+include ':feature:deposit'
+include ':feature:selling'
 
 //data, network, abstraction
 include ':domain'

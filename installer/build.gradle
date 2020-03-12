@@ -109,4 +109,7 @@ dependencies {
      */
     implementation project(':feature:main')
     implementation project(':feature:chat')
+    implementation project(':feature:product')
+    implementation project(':feature:deposit')
+    implementation project(':feature:selling')
 }
